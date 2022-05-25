@@ -2,9 +2,24 @@
   text-align: center;
 }
 
-
-.test{
+.Input
+{
   text-align: center;
+  background-color: #282c34;
+  color: white;
+  height: 5vmin;
+  width: 10vmin;
+  font-size: calc(10px + 5vmin);
+}
+
+.Button
+{
+  text-align: center;
+  background-color: #9bb452;
+  color: rgb(26, 12, 12);
+  height: 10vmin;
+  width: 10vmin;
+  font-size: calc(10px + 5vmin);
 }
 
 .App-logo {
@@ -20,7 +35,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
